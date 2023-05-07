@@ -9,14 +9,14 @@ export default function Home() {
         <Navbar />
       </section>
 
-      {/* <main>
-        <h1 className="text-6xl text-center py-4">MATSU | dot | MOTO</h1>
+      <main>
+      <h1 className="text-6xl text-center py-40">MATSU | <span className='text-[#E74646] font-semibold'>dot</span> | MOTO</h1>
         <p className="text-center">-Under Construction-</p>
-      </main> */}
+      </main>
 
-      <section>
+      {/* <section>
         <Hero />
-      </section>
+      </section> */}
     </>
   )
     
