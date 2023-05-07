@@ -19,7 +19,7 @@ const Navbar = () => {
         
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <Image src="/../public/assets/img/MM.png" alt="/" width="112" height="112"/>
-          <div>
+          <div className='float-left'>
             <ul className='hidden md:flex'>
               <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
@@ -37,12 +37,29 @@ const Navbar = () => {
                 <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
               </Link>
             </ul>
+          </div>
+            <div className='float-right'>
+              <div className='hidden md:flex justify-end  my-4 w-full sm:w-[80%]'>
+                <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
+                  <SiFacebook />
+                </div>
+                <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
+                  <SiTwitter />
+                </div>
+                <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
+                  <SiInstagram />
+                </div>
+                <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
+                  <SiSoundcloud />
+                </div>
+              </div>
+            </div>
             <div onClick={handleNav} className='md:hidden'>
               <AiOutlineMenu size={25} />
             </div>
-          </div>
         </div>
 
+        {/* Hamburger menu */}
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
           <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] p-10 ease-in duration-500'}>
             <div>
