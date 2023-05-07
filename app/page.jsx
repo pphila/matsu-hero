@@ -4,9 +4,10 @@ import Navbar from './components/Navbar';
 export default function Home() {
   return (
     <>
+      <Navbar />
       <main>
-        <Navbar />
-        <h1 className="text-6xl text-center py-20">MATSUdotMOTO</h1>
+        
+        <h1 className="text-6xl text-center py-40">MATSU | dot | MOTO</h1>
         <p className="text-center">-Under Construction-</p>
       </main>
     </>

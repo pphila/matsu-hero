@@ -15,10 +15,10 @@ const Navbar = () => {
   
   return (
     <>
-      <div className='fixed w-full h-20 shadow-xl z-[100]'>
+      <div className='fixed w-full h-28 shadow-xl z-[100]'>
         
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <Image src="/../public/assets/img/MM.png" alt="/" width="80" height="80"/>
+          <Image src="/../public/assets/img/MM.png" alt="/" width="112" height="112"/>
           <div>
             <ul className='hidden md:flex'>
               <Link href='/'>
@@ -43,12 +43,12 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
+        <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
           <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] p-10 ease-in duration-500'}>
             <div>
               <div className='flex w-full items-center justify-between'>
                 <Image src='/../public/assets/img/MM.png' alt='/' width='80' height='80' />
-                <div onclick={handleNav} className='rounded-full shadow-md shadow-gray-400 cursor-pointer'>
+                <div onClick={handleNav} className='rounded-full shadow-md shadow-gray-400 cursor-pointer'>
                   <AiOutlineClose />
                 </div>
               </div>
@@ -73,6 +73,7 @@ const Navbar = () => {
                     <li className='py-4 text-sm'>Contact</li>
                   </Link>
                 </ul>
+
                 <div className='pt-40'>
                   <p className='uppercase tracking-widest color-[#394867] font-semibold'>Socials</p>
                   <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
@@ -90,10 +91,12 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </>
   )
