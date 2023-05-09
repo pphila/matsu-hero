@@ -9,7 +9,7 @@ export default function Home() {
       <section>
         {/* <Navbar /> */}
         <div className='flex justify-center'>
-          <Image src="/../app/img/matsumoto-logo.png" alt="/" width="250" height="250"/>
+          <Image src="/../public/assets/img/matsumoto-logo.png" alt="logo" width="250" height="250"/>
         </div>
         
       </section>
