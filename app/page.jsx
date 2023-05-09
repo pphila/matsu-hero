@@ -2,6 +2,7 @@ import React from 'react';
 // import Navbar from './components/Navbar';
 // import Hero from './components/Hero';
 import Image from 'next/image';
+import logo from './../public/assets/img/matsumoto-logo.png';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <section>
         {/* <Navbar /> */}
         <div className='flex justify-center'>
-          <Image src="/../public/assets/img/matsumoto-logo.png" alt="logo" width="250" height="250"/>
+          <Image src={logo} alt="logo" width="250" height="250"/>
         </div>
         
       </section>
