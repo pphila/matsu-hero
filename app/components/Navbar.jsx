@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className='fixed w-full bg-white h-28 shadow-xl z-[100]'>
         
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <Image src="/../public/assets/img/MM.png" alt="/" width="112" height="112"/>
+          <Image src="/../public/assets/img/matsu.MOTO-square.jpg" alt="/" width="112" height="112"/>
           <div className='float-left'>
             <ul className='hidden md:flex'>
               <Link href='/'>
