@@ -14,9 +14,11 @@ export default function Home() {
     <>
       <section>
         <Navbar />
+        
         {/* <div className='flex justify-center'>
           <Image src="/../public/assets/img/MM.png" alt="/" width="250" height="250"/>
         </div> */}
+        
       </section>
 
       <main>
