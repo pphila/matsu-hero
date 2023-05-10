@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import bioPic from './../../public/assets/img/matsu-bio.jpg';
 
 const Bio = () => {
   return (
@@ -12,7 +13,7 @@ const Bio = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum quos inventore doloribus reprehenderit esse sunt laborum magni, molestiae vel sequi nihil numquam porro, ipsam rem asperiores, repellendus ea eos!</p>
           </div>
           <div className='w-full h-auto m-auto shadow-2xl shadow-gray-400 flex items-center justify-center hover:scale-110 ease-in duration-200'>
-            <Image src="/../public/assets/img/matsu-bio.jpg" width="828" height="552" alt="bio pic" />
+            <Image src={bioPic} width="828" height="552" alt="bio pic" />
           </div>
         </div>
       </div>
