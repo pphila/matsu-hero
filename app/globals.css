@@ -8,6 +8,10 @@
     @apply bg-gray-50 text-gray-950 tracking-wide
   }
 
+  .custom-image {
+    background-image: url(./../public/assets/img/matsu-bg.jpg);
+  }
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold
   }
