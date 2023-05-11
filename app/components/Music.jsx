@@ -14,7 +14,7 @@ const Music = () => {
             </div>
           </div>
           <div className='pt-[60]'>
-            <iframe width="100%" height="544" scrolling="no" frameorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/matsudotmoto&amp;"></iframe>
+            <iframe width="100%" height="544" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/matsudotmoto&amp;"></iframe>
           </div>
         </div>
       </div>
