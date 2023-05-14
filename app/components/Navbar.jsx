@@ -42,16 +42,16 @@ const Navbar = () => {
             <div className='float-right'>
               <div className='hidden md:flex justify-end  my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <SiFacebook />
+                  <a href="https://m.facebook.com/Fourthworldpdx"><SiFacebook /></a>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <SiTwitter />
+                  <a href="https://twitter.com/matsudotmoto"><SiTwitter /></a>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <SiInstagram />
+                  <a href="https://www.instagram.com/matsudotmoto/"><SiInstagram /></a>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <SiSoundcloud />
+                  <a href="https://soundcloud.com/matsudotmoto"><SiSoundcloud /></a>
                 </div>
               </div>
             </div>
@@ -75,20 +75,20 @@ const Navbar = () => {
               </div>
               <div className='py-4 flex flex-col'>
                 <ul className='uppercase'>
-                  <Link href='/'>
-                    <li className='py-4 text-sm'>Home</li>
+                  <Link href='/#hero'>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
                   </Link>
-                  <Link href='/'>
-                    <li className='py-4 text-sm'>Bio</li>
+                  <Link href='/#bio'>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Bio</li>
                   </Link>
-                  <Link href='/'>
-                    <li className='py-4 text-sm'>Music</li>
+                  <Link href='/#music'>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Music</li>
                   </Link>
-                  <Link href='/'>
-                    <li className='py-4 text-sm'>Photos</li>
+                  <Link href='/#photos'>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Photos</li>
                   </Link>
-                  <Link href='/'>
-                    <li className='py-4 text-sm'>Contact</li>
+                  <Link href='/#contact'>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                   </Link>
                 </ul>
 
@@ -96,16 +96,16 @@ const Navbar = () => {
                   <p className='uppercase tracking-widest color-[#394867] font-semibold'>Socials</p>
                   <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <SiFacebook />
+                      <a href="https://m.facebook.com/Fourthworldpdx"><SiFacebook /></a>
                     </div>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <SiTwitter />
+                      <a href="https://twitter.com/matsudotmoto"><SiTwitter /></a>
                     </div>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <SiInstagram />
+                      <a href="https://www.instagram.com/matsudotmoto/"><SiInstagram /></a>
                     </div>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <SiSoundcloud />
+                      <a href="https://soundcloud.com/matsudotmoto"><SiSoundcloud /></a>
                     </div>
                   </div>
                 </div>
