@@ -11,9 +11,9 @@ import Img6 from './../../public/assets/img/photoGallery/matsu-img-6.jpg';
 const PhotoReel = () => {
   return(
     <>
-      <div className='bg-gray-50 w-full h-full text-center pb-10'>
+      <div className='bg-gray-50/20 w-full h-full text-center pb-20'>
         <div className='py-4'>
-            <h1 className="text-6xl text-gray-950 text-center py-6">Photos</h1>
+            <h1 className="text-6xl text-gray-50 text-center py-6">Photos</h1>
         </div>
         <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-6 pt-10'>
           
