@@ -8,7 +8,7 @@ const Contact = () => {
   return(
     <>
       <div className='w-full lg:h-screen text-center'>
-        <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
+        <div className='max-w-[1240px] m-auto px-2 py-8 w-full'>
           
           <div className='py-4'>
             <h1 className="text-6xl text-center">Contact Me:</h1>
@@ -55,7 +55,7 @@ const Contact = () => {
 
           </div>
           
-          <div className='flex justify-center py-4'>
+          <div className='flex justify-center py-12'>
             <Link href="/">
               <div className='bg-white text-gray-900 rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
                 <TfiAngleDoubleUp size={30}/>
