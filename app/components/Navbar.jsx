@@ -3,8 +3,9 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import smLogo from './../../public/assets/img/matsu.MOTO-Square.jpg';
 import Link from 'next/link';
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
-import {SiFacebook, SiTwitter, SiInstagram, SiSoundcloud} from 'react-icons/si';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { HiOutlineMail } from 'react-icons/hi';
+import { SiTwitter, SiInstagram, SiSoundcloud } from 'react-icons/si';
 
 
 const Navbar = () => {
@@ -42,7 +43,7 @@ const Navbar = () => {
             <div className='float-right'>
               <div className='hidden md:flex justify-end  my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <a href="https://m.facebook.com/Fourthworldpdx"><SiFacebook /></a>
+                  <a href="mailto:djmatsu.moto808@gmail.com"><HiOutlineMail /></a>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
                   <a href="https://twitter.com/matsudotmoto"><SiTwitter /></a>
@@ -96,7 +97,7 @@ const Navbar = () => {
                   <p className='uppercase tracking-widest color-[#394867] font-semibold'>Socials</p>
                   <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <a href="https://m.facebook.com/Fourthworldpdx"><SiFacebook /></a>
+                      <a href="mailto: djmatsu.moto808@gmail.com"><HiOutlineMail /></a>
                     </div>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
                       <a href="https://twitter.com/matsudotmoto"><SiTwitter /></a>
