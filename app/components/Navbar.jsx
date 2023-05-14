@@ -22,19 +22,19 @@ const Navbar = () => {
           <Image src={smLogo} alt="/" width="112" height="112"/>
           <div className='float-left'>
             <ul className='hidden md:flex'>
-              <Link href='/'>
+              <Link href='/#hero'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#bio'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Bio</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#music'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Music</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#photos'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Photo</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#contact'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
               </Link>
             </ul>

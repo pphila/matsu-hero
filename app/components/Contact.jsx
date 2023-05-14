@@ -7,7 +7,7 @@ import contactPic from './../../public/assets/img/matsu.MOTO-contact.jpg';
 const Contact = () => {
   return(
     <>
-      <div className='w-full lg:h-screen text-center'>
+      <div id='contact' className='w-full lg:h-screen text-center'>
         <div className='max-w-[1240px] m-auto px-2 py-8 w-full'>
           
           <div className='py-4'>
@@ -19,7 +19,7 @@ const Contact = () => {
             
             <div className='col-span-3 lg:col-span-2 w-full h-full'>
               <div className='flex justify-center items-center shadow-2xl shadow-gray-950 w-fit h-fit'>
-                <Image src={contactPic} width="360" height="600" alt="/" />
+                <Image src={contactPic} width="auto" height="600" alt="/" />
               </div>
             </div>
 
