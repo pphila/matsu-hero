@@ -43,7 +43,7 @@ const Navbar = () => {
             <div className='float-right'>
               <div className='hidden md:flex justify-end  my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <a href="mailto:djmatsu.moto808@gmail.com"><HiOutlineMail /></a>
+                  <Link href='/#contact'><HiOutlineMail /></Link>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
                   <a href="https://twitter.com/matsudotmoto"><SiTwitter /></a>
