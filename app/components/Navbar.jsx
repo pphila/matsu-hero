@@ -46,13 +46,13 @@ const Navbar = () => {
                   <Link href='/#contact'><HiOutlineMail /></Link>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <a href="https://twitter.com/matsudotmoto"><SiTwitter /></a>
+                  <a href="https://twitter.com/matsudotmoto" target='_blank'><SiTwitter /></a>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <a href="https://www.instagram.com/matsudotmoto/"><SiInstagram /></a>
+                  <a href="https://www.instagram.com/matsudotmoto/" target='_blank'><SiInstagram /></a>
                 </div>
                 <div className='rounded-full shadow-md p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                  <a href="https://soundcloud.com/matsudotmoto"><SiSoundcloud /></a>
+                  <a href="https://soundcloud.com/matsudotmoto" target='_blank'><SiSoundcloud /></a>
                 </div>
               </div>
             </div>
@@ -97,16 +97,16 @@ const Navbar = () => {
                   <p className='uppercase tracking-widest color-[#394867] font-semibold'>Socials</p>
                   <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <a href="mailto: djmatsu.moto808@gmail.com"><HiOutlineMail /></a>
+                      <Link href='/#contact'><HiOutlineMail /></Link>
                     </div>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <a href="https://twitter.com/matsudotmoto"><SiTwitter /></a>
+                      <a href="https://twitter.com/matsudotmoto" target='_blank'><SiTwitter /></a>
                     </div>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <a href="https://www.instagram.com/matsudotmoto/"><SiInstagram /></a>
+                      <a href="https://www.instagram.com/matsudotmoto/" target='_blank'><SiInstagram /></a>
                     </div>
                     <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
-                      <a href="https://soundcloud.com/matsudotmoto"><SiSoundcloud /></a>
+                      <a href="https://soundcloud.com/matsudotmoto" target='_blank'><SiSoundcloud /></a>
                     </div>
                   </div>
                 </div>
