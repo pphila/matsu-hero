@@ -5,7 +5,7 @@ import bioPic from './../../public/assets/img/matsu.MOTO-bio.jpg';
 const Bio = () => {
   return (
     <>
-      <div id='bio' className='bg-gray-50 text-gray-950 w-full md:h-screen p-2 py-16'>
+      <div id='bio' className='bg-gray-50 text-gray-950 w-full xxl:h-screen h-auto p-2 py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-2'>
           <div className='col-span-2 grid justify-center align-middle mt-16'>
             <h1 className='text-6xl text-center'>Biography</h1>

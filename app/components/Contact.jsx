@@ -7,12 +7,11 @@ import contactPic from './../../public/assets/img/matsu.MOTO-contact.jpg';
 const Contact = () => {
   return(
     <>
-      <div id='contact' className='w-full lg:h-screen md:h-auto sm:h-auto text-center'>
+      <div id='contact' className='w-full xxl:h-screen h-auto sm:h-auto text-center'>
         <div className='max-w-[1240px] m-auto px-2 py-8 w-full'>
           
           <div className='py-4'>
-            <h1 className="text-6xl text-center">Contact</h1>
-            <p className='pt-2 text-lg font-semibold'>| Contact me for promo mixes and bookings |</p>
+            <h1 className="text-6xl text-center subpixel-antialiased">Contact</h1>
           </div>
 
           <div className='grid lg:grid-cols-5 gap-8 pt-16'>
@@ -27,9 +26,8 @@ const Contact = () => {
               <div className='p-4'>
                 <form action="https://formsubmit.co/djmatsu.moto808@gmail.com" method="POST">
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                    
                     <input type='text' name='_honey' style={{display: 'none'}}/>
-                    <input type='hidden' name="_captha" value="false" />
+                    <input type='hidden' name="_captcha" value="false" />
                     <div className='flex flex-col'>
                       <label className='uppercase text-sm py-2'>Name</label>
                       <input className='text-black font-semibold border-2 rounded-md p-3 flex border-gray-300' type="text" name="name" />
