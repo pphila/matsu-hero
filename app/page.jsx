@@ -42,9 +42,9 @@ export default function Home() {
         </section>
       </main>
 
-      <section>
+      {/* <section>
         <Footer />
-      </section>
+      </section> */}
     </>
   )
 
