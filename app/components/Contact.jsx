@@ -7,7 +7,7 @@ import contactPic from './../../public/assets/img/matsu.MOTO-contact.jpg';
 const Contact = () => {
   return(
     <>
-      <div id='contact' className='w-full lg:h-screen text-center'>
+      <div id='contact' className='w-full lg:h-screen md:h-auto sm:h-auto text-center'>
         <div className='max-w-[1240px] m-auto px-2 py-8 w-full'>
           
           <div className='py-4'>
@@ -25,8 +25,11 @@ const Contact = () => {
 
             <div className='bg-gray-800 col-span-3 w-full h-auto shadow-xl shadow-gray-950 rounded-md lg:p-4'>
               <div className='p-4'>
-                <form>
+                <form action="https://formsubmit.co/djmatsu.moto808@gmail.com" method="POST">
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+                    
+                    <input type='text' name='_honey' style={{display: 'none'}}/>
+                    <input type='hidden' name="_captha" value="false" />
                     <div className='flex flex-col'>
                       <label className='uppercase text-sm py-2'>Name</label>
                       <input className='text-black font-semibold border-2 rounded-md p-3 flex border-gray-300' type="text" name="name" />
@@ -46,9 +49,9 @@ const Contact = () => {
                   </div>
                   <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2'>Message</label>
-                    <textarea className='text-black font-semibold border-2 rounded-md p-3 border-gray-300' rows="10"/>
+                    <textarea className='text-black font-semibold border-2 rounded-md p-3 border-gray-300' name="message" rows="10"/>
                   </div>
-                  <button className='w-full p-4 text-gray-100 mt-4'>Send</button>
+                  <button className='w-full p-4 text-gray-100 mt-4 shadow-lg shadow-gray-950'>Send</button>
                 </form>
               </div>
             </div>
