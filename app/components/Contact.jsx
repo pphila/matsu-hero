@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='max-w-[1240px] m-auto px-2 py-8 w-full'>
           
           <div className='py-4'>
-            <h1 className="text-6xl text-center subpixel-antialiased">Contact</h1>
+            <h1 className="text-6xl text-center subpixel-antialiased tracking-widest">Contact</h1>
           </div>
 
           <div className='grid lg:grid-cols-5 gap-8 pt-16'>

@@ -7,7 +7,7 @@ const Music = () => {
     <>
       <div id='music' className='w-full md:h-screen p-2 py-16'>
         <div className='py-20'>
-          <h1 className='max-w-[1240px] m-auto text-6xl text-center pb-8 subpixel-antialiased'>Music</h1>
+          <h1 className='max-w-[1240px] m-auto text-6xl text-center pb-8 subpixel-antialiased tracking-widest'>Mixes</h1>
           <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             
             <div className='col-span-2'>

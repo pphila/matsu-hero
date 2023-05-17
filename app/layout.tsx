@@ -1,11 +1,20 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Koulen, Noto_Sans_JP } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const koulen = Koulen({ 
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-koulen',
+})
+
+const notoJP = Noto_Sans_JP({
+  subsets: ['latin'],
+  variable: '--font-notoJP',
+})
 
 export const metadata = {
   title: 'MATSU | dot | MOTO',
-  description: 'DJ Profile page',
+  description: 'Rising PDX DJ',
 }
 
 export default function RootLayout({
@@ -14,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${koulen.variable} ${notoJP.variable}`}>
       <body>{children}</body>
     </html>
   )

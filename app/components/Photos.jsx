@@ -13,7 +13,7 @@ const PhotoReel = () => {
     <>
       <div id='photos' className='bg-gray-50 w-full lg:h-screen md:h-auto text-center pb-20'>
         <div className='py-20'>
-            <h1 className="text-6xl text-gray-950 text-center py-6 ">Photos</h1>
+            <h1 className="text-6xl text-gray-950 text-center py-6 tracking-widest">Photos</h1>
         </div>
         <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-6 pt-10'>
           

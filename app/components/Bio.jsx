@@ -8,7 +8,7 @@ const Bio = () => {
       <div id='bio' className='bg-gray-50 text-gray-950 w-full xxl:h-screen h-auto p-2 py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-2'>
           <div className='col-span-2 grid justify-center align-middle mt-16'>
-            <h1 className='text-6xl text-center'>Biography</h1>
+            <h1 className='text-6xl text-center tracking-widest'>Biography</h1>
             <div className='max-w-[800] bg-gray-50/25 p-4 mt-4'>
               
               <p className='py-2 text-lg font-semibold mt-4'>DJ Matsu.MOTO is a Honolulu-born, Portland-based DJ working his way to the the big stage. Inspired by big name artists like Nitti Gritti, John Summit, and Malaa, he has honed his skills and developed a unique sound that blends House, Tech House, and Big Room Bass.</p>
