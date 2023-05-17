@@ -16,9 +16,9 @@ const Contact = () => {
 
           <div className='grid lg:grid-cols-5 gap-8 pt-16'>
             
-            <div className='col-span-3 lg:col-span-2 w-full h-full'>
-              <div className='flex justify-center items-center shadow-2xl shadow-gray-950 w-fit h-fit'>
-                <Image src={contactPic} width="auto" height="600" alt="/" />
+            <div className='col-span-3 lg:col-span-2 w-full h-full flex justify-center items-center'>
+              <div className=' shadow-2xl shadow-gray-950 w-fit h-fit'>
+                <Image src={contactPic} width="auto" height="auto" alt="/" />
               </div>
             </div>
 
