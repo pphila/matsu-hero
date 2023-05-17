@@ -20,7 +20,14 @@ const Navbar = () => {
       <div className='fixed w-full bg-white text-gray-950 font-semibold h-28 shadow-xl z-[100]'>
         
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <Image src={smLogo} alt="/" width="112" height="112"/>
+          <Link href='/#hero'>
+            <Image 
+              src={smLogo} 
+              alt="/" 
+              width="112" 
+              height="112"
+              />
+          </Link>
           <div className='float-left'>
             <ul className='hidden md:flex'>
               <Link href='/#hero'>
@@ -30,7 +37,7 @@ const Navbar = () => {
                 <li className='ml-10 text-sm uppercase hover:border-b'>Bio</li>
               </Link>
               <Link href='/#music'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>Music</li>
+                <li className='ml-10 text-sm uppercase hover:border-b'>Mixes</li>
               </Link>
               <Link href='/#photos'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Photo</li>
@@ -66,7 +73,14 @@ const Navbar = () => {
           <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] p-10 ease-in duration-500'}>
             <div>
               <div className='flex w-full items-center justify-between'>
-                <Image src={smLogo} alt='/' width='80' height='80' />
+                <Link href='/#hero'>
+                  <Image 
+                    src={smLogo}
+                    alt='/' 
+                    width='80' 
+                    height='80' 
+                    />
+                  </Link>
                 <div onClick={handleNav} className='rounded-full shadow-md shadow-gray-400 cursor-pointer'>
                   <AiOutlineClose />
                 </div>
@@ -83,7 +97,7 @@ const Navbar = () => {
                     <li onClick={() => setNav(false)} className='py-4 text-sm'>Bio</li>
                   </Link>
                   <Link href='/#music'>
-                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Music</li>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Mixes</li>
                   </Link>
                   <Link href='/#photos'>
                     <li onClick={() => setNav(false)} className='py-4 text-sm'>Photos</li>
