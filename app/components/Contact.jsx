@@ -24,7 +24,7 @@ const Contact = () => {
 
             <div className='bg-gray-800 col-span-3 w-full h-auto shadow-xl shadow-gray-950 rounded-md lg:p-4'>
               <div className='p-4'>
-                <form action="https://formsubmit.co/your@email.com" method="POST">
+                <form action="https://formsubmit.co/c80936604ce76f2b09c6cece436f37bb" method="POST">
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <input type='text' name='_honey' style={{display: 'none'}}/>
                     <input type='hidden' name="_captcha" value="false" />
