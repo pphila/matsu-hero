@@ -30,7 +30,7 @@ const Contact = () => {
                     <input type='hidden' name="_captcha" value="false" />
                     <div className='flex flex-col'>
                       <label className='uppercase text-sm py-2'>Name</label>
-                      <input className='text-black font-semibold border-2 rounded-md p-3 flex border-gray-300' type="text" name="name" />
+                      <input className='text-black font-semibold border-2 rounded-md p-3 flex border-gray-300' type="text" name="name" required/>
                     </div>
                     <div className='flex flex-col'>
                       <label className='uppercase text-sm py-2'>Phone Number</label>
@@ -39,7 +39,7 @@ const Contact = () => {
                   </div>
                   <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2'>Email</label>
-                    <input className='text-black font-semibold border-2 rounded-md p-3 flex border-gray-300' type="email" name="email" />
+                    <input className='text-black font-semibold border-2 rounded-md p-3 flex border-gray-300' type="email" name="email" required/>
                   </div>
                   <div className='flex flex-col py-2'>
                     <label className='uppercase text-sm py-2'>Subject</label>
